@@ -1,6 +1,7 @@
 package mastercrupt;
 
-public class Application {
+public class Application implements ApplicationInterface {
+    @Override
     public void leet(String string, UI ui) {
         ui.setLeeted(Leeter.leet(string));
     }
