@@ -1,5 +1,8 @@
 package mastercrupt;
 
+import ui.ApplicationInterface;
+import ui.UI;
+
 public class Application implements ApplicationInterface {
     @Override
     public void leet(String string, UI ui) {
